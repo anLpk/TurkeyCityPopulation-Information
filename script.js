@@ -1,5 +1,5 @@
 // console.log("Hello from inside");
-const endpoint = "./lib/data.JSON";
+const endpoint = "./data.JSON";
 const cities = [];
 
 fetch(endpoint)
