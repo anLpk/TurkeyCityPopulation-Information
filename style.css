@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Roboto+Mono:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Roboto Mono", "Roboto", "Nunito", monospace, sans-serif;
+  background-color: #cdfffc;
+}
+
+::placeholder {
+  font-family: "Roboto Mono", "Roboto", "Nunito", monospace, sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  width: 20em;
+  background: white;
+  list-style: none;
+  border-bottom: 1px solid #d8d8d8;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 20px;
+  display: block;
+  justify-content: space-between;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  margin-left: -1.2em;
+}
+
+#title-list {
+  text-align: center;
+  margin-left: -1.5em;
+}
+
+.hl {
+  background-color: tomato;
+}
+main {
+  display: grid;
+  place-items: center;
+}
+
+.form-control {
+  display: block;
+  width: 30em;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.em {
+  vertical-align: middle;
+}
+
+/* On screens that are 520px or less */
+@media screen and (max-width: 520px) {
+  h1 {
+    text-align: center;
+  }
+
+  .form-control {
+    width: 20em;
+  }
+
+  li {
+    width: 17.2em;
+    margin-left: -2.8em;
+    font-size: 1rem;
+  }
+
+  #title-list {
+    margin-left: -3em;
+  }
+}
